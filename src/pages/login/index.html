@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- styles with scss -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- title for browser tab-->
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div class="container-full">
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="image-transition">
+              <img
+                src="../../assets/background-phones.png"
+                alt="images animated inside phone screens"
+                class="static-image"
+              />
+              <div class="screen">
+                <img src="../../assets/image1.jpg" class="image-sequency one" />
+                <img src="../../assets/image2.jpg" class="image-sequency two" />
+                <img src="../../assets/image3.jpg" class="image-sequency three" />
+                <img src="../../assets/image4.jpg" class="image-sequency four" />
+              </div>
+            </div>
+          </div>
+
+          <div class="right-side">
+            <div class="right-side-content">
+              <div class="image-logo">
+                <img
+                  src="../../assets/Instagram_logo.svg"
+                  alt="instagram's logo"
+                  class="logo-instagram"
+                />
+              </div>
+
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="input-email"
+                    id="inputEmail"
+                    class="email"
+                    maxlength="75"
+                    placeholder="Phone number, username or email"
+                  />
+                  <input
+                    type="password"
+                    name="input-password"
+                    id="inputPassword"
+                    class="password"
+                    placeholder="Password"
+                  />
+                  <button class="btn-primary">Log In</button>
+                </div>
+              </form>
+              <div class="content-divisor">
+                <span class="divisor">or</span>
+              </div>
+
+              <div class="account-problems">
+                <a href="" class="login-with-facebook">
+                  <span class="logo-facebook"></span> Log in with Facebook
+                </a>
+                <a href="" class="forgot-password">Forgot password?</a>
+              </div>
+            </div>
+
+            <div class="create-account-container">
+              <span class="account">
+                Don't have an account?
+                <a href="" class="create">Sign up</a>
+              </span>
+            </div>
+
+            <div class="get-app-container">
+              <p class="get-app">Get the app.</p>
+              <div class="app-store-container">
+                <img
+                  src="../../assets/apple-store.png"
+                  alt="download on the apple store"
+                  class="apple-store"
+                />
+                <img
+                  src="../../assets/android-store.png"
+                  alt="get it on google play"
+                  class="android-store"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
